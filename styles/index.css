@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--BODY-BG-COLOR);
+}
+:root {
+  --BODY-BG-COLOR: #f4f6f9;
+  --PRIMARY-COLOR: #1e293b;
+  --STATUS-COLOR: #22c55e;
+}
+
+nav {
+  background-color: var(--PRIMARY-COLOR);
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+}
+
+nav,
+nav a {
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  font-size: 23px;
+  margin: 8px;
+}
+main {
+  padding: 40px;
+}
+.box1,
+.box2 {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.11);
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.11);
+  margin-top: 10%;
+}
+.box1 {
+  width: 40vw;
+  height: 320px;
+  padding-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box2 {
+  width: 50vw;
+  height: 280px;
+  margin-left: 5%;
+  padding: 20px;
+}
+
+.sp span:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #97b5e59f;
+  border: 3px solid #0062ff9f;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sp span:nth-child(2) {
+  display: inline-block;
+
+  background-color: rgb(100, 216, 100);
+  position: absolute;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  top: 20px;
+  right: 20px;
+}
+.box1 h2 {
+  margin-top: 20px;
+  font-size: 28px;
+}
+.box1 h4 {
+  color: grey;
+}
+.box1 hr {
+  width: 90%;
+  border: 1px solid lightgray;
+  margin-top: 15px;
+}
+.spacing2 {
+  color: grey;
+}
+.spacing1 {
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 18px;
+  margin-top: 10px;
+}
+.spacing2,
+.spacing1 {
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+  font-size: 18px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.bx1 {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid lightgray;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bx1 div p:nth-child(2) {
+  color: rgb(170, 169, 169);
+}
+.status {
+  background-color: rgb(214, 242, 247);
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid rgb(203, 230, 235);
+  color: rgba(0, 0, 255, 0.658);
+}
